@@ -1,0 +1,239 @@
+
+.background {
+    background: rgba(8, 8, 8, 0.26) url('https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/5.jpg?alt=media&token=e57d7b2d-96f6-4829-a94f-747b9827a61c');
+    background-size: cover;
+}
+
+.heading{
+    color: white;
+}
+
+.headline p{
+    display: inline-block;
+    font-size: larger;
+}
+
+.address{
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.timing{
+    margin-left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mail{
+    margin-left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.number{
+    margin-left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo{
+    width:150px;
+    height: 150px;
+    border-radius: 75px;
+    display: inline-block;
+}
+.book{
+    background-color:white;
+    border:none;
+    border-radius:25px;
+    padding: 5px 10px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.book:hover{
+    background-color: black;
+    color: white;
+}
+.book:active{
+    opacity:0.7;
+}
+.tab-btn{
+    border:none;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tab-btn:hover{
+    color:rgb(52, 155, 245);
+}
+.column {
+    float: left;
+    width: 19%;
+    padding: 5px;
+    margin: 0%;
+}
+
+.textbox {
+  font-optical-sizing: auto;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  width:700px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Philosopher", sans-serif;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+.large{
+    padding-top: 0px;
+}
+.textbox1{
+  font-optical-sizing: auto;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  width:1200px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Philosopher", sans-serif;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+.small {
+    font-optical-sizing: auto;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width:700px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Philosopher", sans-serif; 
+}
+.slider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+  }
+  
+  .background {
+    background-size: cover;
+    animation: slide 5s infinite; 
+  }
+  
+  @keyframes slide {
+    0%, 100% {
+      background-image: url('https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/5.jpg?alt=media&token=e57d7b2d-96f6-4829-a94f-747b9827a61c'); /* Adjust the path to your background image */
+    }
+    40% {
+      background-image: url('https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/WhatsApp%20Image%202024-02-27%20at%206.12.32%20PM.jpeg?alt=media&token=11980b8b-9849-4c6b-bb1e-a33e86c6cc90'); /* Adjust the path to your background image */
+    }
+    80% {
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/WhatsApp%20Image%202024-02-27%20at%206.12.34%20PM.jpeg?alt=media&token=ff49f1a1-c2c6-4651-ac88-bc14b17fe663'); /* Adjust the path to your background image */
+      }
+  }
+
+  .column1 {
+    float: left;
+    width: 24%;
+    padding: 5px;
+    margin: 0%;
+}
+#menu-container{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 1850px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.hi{
+    margin-top: 150px;
+}
+.dish{
+    height:120px;
+    width:120px;
+    border-radius: 15px;
+}
+.about{
+    color:white;
+    font-size:25px;
+    margin-top: 150px;
+    justify-content: center;
+}
+.email{
+    width:400px;
+    margin-left: 530px;
+    font-size: 20px;
+    padding: 7px 7px;
+    border-radius: 10px;
+    border:none;
+}
+.hotelname{
+    font-family: "Damion", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.sub{
+    height: 40px;
+    width:100px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+    
+}
+.sub:hover{
+    color: white;
+    background-color: black;
+}
+h5{
+    font-size: 20px;
+}
+.popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+    form{
+        display: grid;
+        gap:15px;
+        
+    }
+    #appointmentFormPopup{
+        width:500px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    .map{
+        margin-left: 500px;
+
+    }
+    .loc{
+        color:white;
+        margin-left: 729px;
+        font-size: 30px;
+
+    }
+    

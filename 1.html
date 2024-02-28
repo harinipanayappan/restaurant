@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@300;400;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAVEN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body class="background">
+    <div id="home-container">
+    <header class="heading">
+      <div class="headline">
+        <p class="address">2685 California Street, Mountain View CA 94040</p>
+        <p class="timing">Daily: 6:00pm to 11:00pm</p>
+        <p class="number">+1-951-239-0523</p>
+        <p class="mail">haven@gmail.com</p>
+      </div>
+    </header>
+    <hr>
+    <br>
+    <main>
+        <div class="column">
+      <img class="logo" src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/Black%20and%20White%20Modern%20Restaurant%20Logo.png?alt=media&token=1b4858ec-ea8a-42ba-ba7e-ca84a51a3a04"></div>
+        <div class="tabs">
+        <div class="column">
+            <button id="home-tab" class="tab-btn active" onclick="showHome()">Home</button>
+        </div>
+        <div class="column">
+            <button id="menu-tab" class="tab-btn" onclick="showMenu()">Menu</button>
+        </div>
+            <div class="column">    
+            <button id="about-tab" class="tab-btn" onclick="showAbout()">About Us</button>
+          </div>
+        </div>
+        <button class="book" onclick="openAppointmentForm()">Book a Table</button>
+        
+        <div class="textbox">
+            <h1 class="hotelname">The Haven</h1>
+            <p class="large">There is no sincerer love than the love of food</p>
+            <p class="small">Visit with your family and feel the joy!</p>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div id="menu-container" style="display: none;">
+            <header class="heading">
+                <div class="headline">
+                  <p class="address">2685 California Street, Mountain View CA 94040</p>
+                  <p class="timing">Daily: 6:00pm to 11:00pm</p>
+                  <p class="number">+1-951-239-0523</p>
+                  <p class="mail">haven@gmail.com</p>
+                </div>
+              </header>
+              <hr>
+              <br>
+              <main>
+                <div class="column">
+                    <img class="logo" src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/Black%20and%20White%20Modern%20Restaurant%20Logo.png?alt=media&token=1b4858ec-ea8a-42ba-ba7e-ca84a51a3a04"></div>
+                  <div class="tabs">
+                  <div class="column">
+                      <button id="home-tab" class="tab-btn active" onclick="showHome()">Home</button>
+                  </div>
+                  <div class="column">
+                      <button id="menu-tab" class="tab-btn" onclick="showMenu()">Menu</button>
+                  </div>
+                      <div class="column">    
+                      <button id="about-tab" class="tab-btn" onclick="showAbout()">About Us</button>
+                    </div>
+                  </div>
+                  <button class="book" onclick="openAppointmentForm()">Book a Table</button>
+        
+        <div class="starters">
+        <h2 class="hi">STARTERS</h2>
+        <hr>
+        <div class="column1">
+            <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/7.jpg?alt=media&token=50d9f903-c163-4810-bb97-575ca1cca7af">
+            <p>Bruschetta</p>
+            <p>$17.5</p>
+        </div>
+        <div class="column1">
+            <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/8.jpg?alt=media&token=47bf60b1-abc0-4c41-9129-310963b93bf8">
+            <p>Dumplings</p>
+            <p>$20</p>
+        </div>
+        <div class="column1">
+            <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/9.jpg?alt=media&token=0bb820da-b2c4-4d97-9452-51229e67f47d">
+            <p>Gobi Manchurian</p>
+            <p>$15</p>
+        </div>
+        <div class="column1">
+            <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/s4.jpg?alt=media&token=232d684a-af36-4da1-a3f9-629853f394e9">
+            <p>Paneer Tikka</p>
+            <p>$12</p>
+        </div>
+        </div>
+        <div class="main-course">
+        <br>
+        <br>
+        <h2>MAIN COURSE</h2>
+        <hr>
+            <h4>ITALIAN</h4>
+            <div class="italian">
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/6.jpg?alt=media&token=66a6257d-67f7-4cc4-800e-7d3d573c2d04">
+                    <p>Lasagna</p>
+                    <p>$30</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/11.jpg?alt=media&token=ae7e2d86-a264-4621-b0ab-2040a30865d0">
+                    <p>Risotto</p>
+                    <p>$25</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/12.jpg?alt=media&token=33530f52-cbcc-44ec-83c2-6dfe366a1098">
+
+                    <p>Red Sauce Pasta</p>
+                    <p>$32</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/i4.jpg?alt=media&token=1a7b276e-7d3d-459c-a35a-2f466f34f890">
+                    <p>Pizza</p>
+                    <p>$25</p>
+                </div>
+            </div>
+            <div class="chinese">
+            <h4>CHINESE</h4>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/c1.jpg?alt=media&token=a07844c4-3816-4527-825f-8c831654cf54">
+                    <p>Chinese Hot Pot</p>
+                    <p>$35</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/c2.jpg?alt=media&token=e69fd2ab-2f1e-4e41-9f3d-872541eb8a3b">
+                    <p>Wonton Soup</p>
+                    <p>$20</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/c3.jpg?alt=media&token=8aa299e8-be72-4078-a7a8-d4af67137667">
+                    <p>Chowmein</p>
+                    <p>$32</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/schezwan-fried-rice-recipe-3.webp?alt=media&token=698f03a4-9a65-4241-8e77-2c3080db6576">
+                    <p>Schezwan Fried Rice</p>
+                    <p>$35</p>
+                </div>
+            </div>
+            <div class="indian">
+                <h4>INDIAN</h4>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/i1.png?alt=media&token=efa36358-aa17-4fa5-884d-4665a35f17ce">
+                    <p>Biriyani</p>
+                    <p>$30</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/i2.jpg?alt=media&token=d07fc98b-37e4-4bb0-a81b-9d3e2012f6e1">
+                    <p>Tandoori</p>
+                    <p>$35</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/i3.jpg?alt=media&token=aaa7371c-0473-4935-b5ae-9567bbfb76bf">
+                    <p>Butter Chicken</p>
+                    <p>$25</p>
+                </div>
+                <div class="column1">
+                    <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/in4.webp?alt=media&token=27dde55c-adce-46c4-92cf-fd4b4cb852e9">
+                    <p>North Indian Thali</p>
+                    <p>$55</p>
+                </div>
+            </div>
+        </div>
+        <div class="desserts">
+            <h2>DESSERTS</h2>
+            <hr>
+            <div class="column1">
+                <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/d1.jpg?alt=media&token=53770796-457e-4cc7-a64f-72899dfecb89">
+                <p>Cheesecake</p>
+                <p>$15</p>
+            </div>
+            <div class="column1">
+                <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/d2.jpg?alt=media&token=3270d5bc-757b-4122-8576-255e4acae606">
+                <p>Brownie</p>
+                <p>$12</p>
+            </div>
+            <div class="column1">
+                <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/d3.jpg?alt=media&token=116187a8-351d-4c1c-9015-7eca83266b42">
+                <p>Tiramisu</p>
+                <p>$18</p>
+            </div>
+            <div class="column1">
+                <img class='dish' src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/d4.webp?alt=media&token=3eee0e0d-9556-4eee-9f80-c51d55eca60a">
+                <p>Hot Chocolate</p>
+                <p>$15</p>
+            </div>
+        </div>
+    </div>
+        <div id="about-container" style="display: none;">
+            <header class="heading">
+                <div class="headline">
+                  <p class="address">2685 California Street, Mountain View CA 94040</p>
+                  <p class="timing">Daily: 6:00pm to 11:00pm</p>
+                  <p class="number">+1-951-239-0523</p>
+                  <p class="mail">haven@gmail.com</p>
+                </div>
+              </header>
+              <hr>
+              <br>
+              <main>
+                <div class="column">
+                    <img class="logo" src="https://firebasestorage.googleapis.com/v0/b/my-first-projects-8b061.appspot.com/o/Black%20and%20White%20Modern%20Restaurant%20Logo.png?alt=media&token=1b4858ec-ea8a-42ba-ba7e-ca84a51a3a04"></div>
+                  <div class="tabs">
+                  <div class="column">
+                      <button id="home-tab" class="tab-btn active" onclick="showHome()">Home</button>
+                  </div>
+                  <div class="column">
+                      <button id="menu-tab" class="tab-btn" onclick="showMenu()">Menu</button>
+                  </div>
+                      <div class="column">    
+                      <button id="about-tab" class="tab-btn" onclick="showAbout()">About Us</button>
+                    </div>
+                  </div>
+                  <button class="book" onclick="openAppointmentForm()">Book a Table</button>
+        <div class="textbox1">
+                  <p class="about">
+            
+
+Welcome to The Havon, where culinary excellence meets cultural fusion. Nestled in the heart of California, The Havon is a gastronomic haven offering a delightful blend of Italian, Chinese, and Indian cuisines.
+
+At The Havon, we believe in the power of flavors to transport you across continents, inviting you on a journey through the vibrant tastes and aromas of Italy, the rich spices of India, and the subtle complexities of Chinese cuisine. Our menu is carefully curated to showcase the finest ingredients and traditional recipes, prepared with precision and passion by our skilled chefs.
+
+Whether you're craving the comforting warmth of Indian curries, the bold flavors of Szechuan stir-fries, or the timeless classics of Italian pasta and pizza, The Havon promises a dining experience that tantalizes the senses and leaves you craving for more.
+
+We take pride in providing exceptional service and creating memorable moments for our guests. Whether you're celebrating a special occasion, hosting a corporate event, or simply dining with friends and family, The Havon offers a warm and inviting ambiance that sets the stage for unforgettable dining experiences.
+
+Join us at The Havon and embark on a culinary journey that celebrates diversity, creativity, and the joy of shared meals. Experience the flavors of the world, right here in California. We look forward to welcoming you to The Havon, where every meal is a celebration of culinary excellence and cultural richness.
+        </p>
+        <h5>Enter your E-mail address to receive latest newsletters and offers!! </h5>
+        <h5>SUBSCRIBE NOW!!</h5>
+    </div>
+        <div>
+            
+        <input type="email" placeholder="Enter E-mail address" class="email" required>
+        <input type="submit" class="sub">
+            
+        </div>
+        <h5 class="loc">Our Location</h5>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.281827993666!2d-122.11556462544847!3d37.406813033273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba761c9c95df%3A0x8f4364baf050d3b2!2s2685%20California%20St%2C%20Mountain%20View%2C%20CA%2094040%2C%20USA!5e0!3m2!1sen!2sin!4v1709119589813!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+        <br>
+      </main>
+</body>
+<div id="appointmentFormPopup" class="popup">
+    <span class="close" onclick="closeAppointmentForm()">&times;</span>
+    <h2>Book your table!</h2>
+    <form id="appointmentForm">
+        
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="appointmentDate">Date:</label>
+        <input type="date" id="appointmentDate" name="appointmentDate" required>
+
+        <label for="num">No of People:</label>
+        <input type="number" id="num" name="num" required>
+
+        <label for="message">Additional Notes:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit" class="book">Book Reservation</button>
+    </form>
+</div>
+
+
+</body>
+</html>
